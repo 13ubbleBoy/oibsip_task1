@@ -1,0 +1,294 @@
+/* navbar */
+
+nav ul li{
+    font-family: 'Rubik', sans-serif;
+}
+
+nav ul li a:hover{
+    color: hsl(0, 94%, 66%)!important;
+}
+
+nav .nav-btn{
+    background:hsl(0, 94%, 66%);
+}
+
+nav .nav-btn:hover{
+    border-color: hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%) !important;
+    background: white ;
+}
+
+
+/* body part-1 */
+.body-part-1{
+    font-family: 'Rubik', sans-serif;
+}
+
+.body-part-1 .btn-1{
+    background: hsl(231, 69%, 60%);
+}
+
+.body-part-1 #capsule{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    overflow: hidden;
+    background-color: hsl(231, 69%, 60%);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    height: 350px;
+    width: 600px;
+    z-index: -1;
+}
+
+.body-part-1 .btn-1:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white ;
+}
+
+.body-part-1 .btn-2:hover{
+    border-color: black ;
+    color: black !important;
+    background: white ;
+}
+
+@media screen and (max-width: 390px){
+
+    .body-part-1 .btn-1, .btn-2{
+        font-size: 12px;
+    }
+
+    .body-part-1 .btn-2{
+        font-size: 12px;
+    }
+
+    .body-part-1 #capsule{
+        top: 35%;
+        left: 20%;
+        height: 200px;
+        width: 300px;
+    }
+
+}
+
+/* features */
+.features{
+    font-family: 'Rubik', sans-serif;
+}
+
+/* tabs */
+.features .btn-tab{
+    background-color: hsl(231, 69%, 60%);
+}
+
+.features #capsule2{
+    position: absolute;
+    overflow: hidden;
+    background-color: hsl(231, 69%, 60%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 350px;
+    width: 600px;
+    z-index: -1;
+}
+
+.features #capsule3{
+    position: absolute;
+    margin-top: 100px;
+    left: 0%;
+    overflow: hidden;
+    background-color: hsl(231, 69%, 60%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 320px;
+    width: 500px;
+    z-index: -1;
+}
+
+.features .tab-text{
+    color: hsl(229, 31%, 21%) !important;
+}
+
+.features .tab-text:hover{
+    color: hsl(0, 94%, 66%) !important;
+}
+
+.features .active{
+    border-bottom: 4px solid hsl(0, 94%, 66%) !important;
+}
+
+.remove-active .active{
+    border-bottom: 0px !important;
+}
+
+.features .remove-active button:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white ;
+}
+
+
+@media screen and (max-width: 390px){
+
+    .features #capsule3{
+        height: 180px;
+        width: 300px;
+        margin-top: 70px; 
+    }
+
+}
+
+/* body part-2 */
+.body-part-2{
+    font-family: 'Rubik', sans-serif;
+}
+
+.body-part-2 .con{
+    margin-top: 150px;
+}
+
+.body-part-2 .bbddyy .d-btn{
+    background:  hsl(231, 69%, 60%);
+}
+
+.body-part-2 .bbddyy .letter-sp{
+    color: hsl(229, 8%, 60%);
+    font-size: 30px;
+    letter-spacing: 10px;
+    opacity: 50%;
+}
+
+.body-part-2 .bbddyy .box-2{
+    position: relative;
+    top: 40px;
+}
+
+.body-part-2 .bbddyy .box-3{
+    position: relative;
+    top: 80px;
+}
+
+.body-part-2 .bbddyy .box-1 button:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white;
+}
+
+.body-part-2 .bbddyy .box-2 button:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white;
+}
+
+.body-part-2 .bbddyy .box-3 button:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white;
+}
+
+
+/* body-part-3 */
+
+.body-part-3{
+    font-family: 'Rubik', sans-serif;
+    margin-top: 220px;
+}
+
+.body-part-3 .acc .btn-hov:hover{
+    color:  hsl(0, 94%, 66%) !important;
+}
+
+.body-part-3 .bp3-btn button{
+    background: hsl(231, 69%, 60%);
+}
+
+.body-part-3 .bp3-btn button:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white;
+}
+
+/* body part-4 */
+.body-part-4{
+    font-family: 'Rubik', sans-serif;
+    margin-top: 150px;
+    background-color: hsl(231, 69%, 60%);
+}
+
+.body-part-4 .bp4-btn{
+    color: white !important;
+    background: hsl(0, 94%, 66%) !important;
+}
+
+.body-part-4 .bp4-btn:hover{
+    border-color: hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%) !important;
+    background: white !important;
+}
+
+.body-part-4 .counts{
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.body-part-3 #email{
+   outline: none; 
+}
+
+@media screen and (max-width: 390px){
+
+    .body-part-4 .bp4-btn{
+        padding: 7px 79px;
+    }
+
+}
+
+
+
+/* footer */
+
+.footer{
+    font-family: 'Rubik', sans-serif;
+    background: hsl(229, 31%, 21%);
+}
+
+.footer ul li a, h3{
+    color: white !important;
+}
+
+.footer ul li a{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer ul li h3:hover{
+    color: hsl(0, 94%, 66%) !important;
+}
+
+.footer .logo-img path{
+    fill: #fff;
+}
+
+
+@media screen and (max-width: 390px){
+
+    .footer .nnv img{
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+
+    .footer .nnv .iicons{
+        display: flex;
+        flex-direction: row;
+        margin-left: 125px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer .nnv .iicons li h3{
+        margin: 0 10px;
+    }
+
+}
